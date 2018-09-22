@@ -16,5 +16,5 @@ alias chef 'aws-list | peco | multi-ssh sudo service chef-client run'
 alias http 'python -m SimpleHTTPServer'
 
 function cd
-  builtin cd "$argv"; and ls -lF
+  builtin cd $argv; and ls -lF
 end
