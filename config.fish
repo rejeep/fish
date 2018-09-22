@@ -4,6 +4,9 @@ set PATH $HOME/.evm/bin $PATH
 set PATH $HOME/Code/bool/libexec $PATH
 set PATH $HOME/.cask/bin $PATH
 
+set LC_ALL en_US.UTF-8
+set LANG en_US.UTF-8
+
 set AWS_REGION eu-west-1
 set AWS_ACCESS_KEY_ID AKIAJ6XZPDVCSRTD662Q
 
