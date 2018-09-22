@@ -3,6 +3,7 @@ status --is-interactive; and source (rbenv init - | psub)
 set PATH $HOME/.evm/bin $PATH
 set PATH $HOME/Code/bool/libexec $PATH
 set PATH $HOME/.cask/bin $PATH
+set PATH $HOME/bin $PATH
 
 set LC_ALL en_US.UTF-8
 set LANG en_US.UTF-8
