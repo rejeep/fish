@@ -8,8 +8,8 @@ set PATH $HOME/bin $PATH
 set LC_ALL en_US.UTF-8
 set LANG en_US.UTF-8
 
-set AWS_REGION eu-west-1
-set AWS_ACCESS_KEY_ID (cat $HOME/.awssecret | head -1)
+set -x AWS_REGION eu-west-1
+set -x AWS_ACCESS_KEY_ID (cat $HOME/.awssecret | head -1)
 
 alias cs 'consul-list | peco | multi-ssh'
 alias as 'aws-list | peco | multi-ssh'
