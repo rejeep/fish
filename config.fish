@@ -14,7 +14,7 @@ set -x AWS_ACCESS_KEY_ID (cat $HOME/.awssecret | head -1)
 alias cs 'consul-list | peco | multi-ssh'
 alias as 'aws-list | peco | multi-ssh'
 alias ts 'aws-list | peco | multi-ssh -t "tmux -CC new -A -s johan"'
-alias chef 'aws-list | peco | multi-ssh sudo service chef-client run'
+alias chef 'consul-list | peco | multi-ssh sudo service chef-client run'
 alias http 'python -m SimpleHTTPServer'
 
 function cd
