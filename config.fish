@@ -16,6 +16,7 @@ alias as 'aws-list | peco | multi-ssh'
 alias ts 'aws-list | peco | multi-ssh -t "tmux -CC new -A -s johan"'
 alias chef 'consul-list | peco | multi-ssh sudo service chef-client run'
 alias http 'python -m SimpleHTTPServer'
+alias be 'bundle exec'
 
 function cd
   builtin cd $argv; and ls -lF
