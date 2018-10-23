@@ -10,6 +10,7 @@ set LANG en_US.UTF-8
 
 set -x AWS_REGION eu-west-1
 set -x AWS_ACCESS_KEY_ID (cat $HOME/.awssecret | head -1)
+set -x AWS_SECRET_ACCESS_KEY (cat $HOME/.awssecret | tail -1)
 
 alias cs 'consul-list | peco | multi-ssh'
 alias as 'aws-list | peco | multi-ssh'
